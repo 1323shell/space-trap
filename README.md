@@ -1,36 +1,23 @@
-<b>!!!</b>
-1. Run `npm i` in the project directory;
-2. Then run `npm i` in the directory 'client';
+<b>Game was updated:</b>
 
+1. npm packages were updated;
+2. ESLint and Prettier are added;
+3. Remove redundant packages from the client;
+4. Replace the gmail service for nodemailer to a testAccount.
 
-<b>Game:</b>
-1. Enter your Name and Email if you want to receive <b>leaderbords</b>.
-2. Use a mouse to open fire on asteroids.
+Other parts of the project were not updated - my bad)
 
+<b>Run the game:</b>
 
+1. Run `npm i` in the root directory of the game;
+2. Run the server: `npm run server`;
+3. `cd client`;
+4. Run `npm i` in the 'client' directory;
+5. Run the client: `npm start`;
 
-## Available Scripts
+Then you can launch the game by using only this command:
+`npm run dev`
 
-In the project directory, you can run:
+<b>How to see the email with a score:</b>
 
-### `npm run dev`
-
-Runs the app (client and server) in the development mode.<br>
-Open <b>http://localhost:3000</b> to view it in the browser.
-
-### `npm run client`
-
-Runs only the client's side of the app in the development mode.<br>
-Open <b>http://localhost:3000</b> to view it in the browser.
-
-
-In the directory 'client', you can run:
-
-### `npm start`
-
-Runs the client's side of the app in the development mode.<br>
-Open <b>http://localhost:3000</b> to view it in the browser.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.
+Follow the link that will appear in the server logs.

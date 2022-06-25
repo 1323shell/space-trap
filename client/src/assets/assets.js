@@ -17,17 +17,21 @@ explImg.src = 'img/expl.png';
 shipExplImg.src = 'img/ship-expl.png';
 
 const assets = {
-    audioBGC: new Audio("audio/Rafael_Dyll_Caves_of_Iya.mp3"),
-    audioExplosion: new Audio("https://www.myinstants.com/media/sounds/impact_explosion_03.mp3"),
-    audioGameOver: new Audio("https://www.myinstants.com/media/sounds/gameover_1.mp3"),
-    gameBackground: gameBackground,
-    gameOverImg: gameOverImg,
-    asteroidImg: asteroidImg,
-    shipImg: shipImg,
-    shieldImg: shieldImg,
-    fireImg: fireImg,
-    explImg: explImg,
-    shipExplImg: shipExplImg,
+  audioBGC: new Audio('audio/Rafael_Dyll_Caves_of_Iya.mp3'),
+  audioExplosion: new Audio(
+    'https://www.myinstants.com/media/sounds/impact_explosion_03.mp3'
+  ),
+  audioGameOver: new Audio(
+    'https://www.myinstants.com/media/sounds/gameover_1.mp3'
+  ),
+  gameBackground: gameBackground,
+  gameOverImg: gameOverImg,
+  asteroidImg: asteroidImg,
+  shipImg: shipImg,
+  shieldImg: shieldImg,
+  fireImg: fireImg,
+  explImg: explImg,
+  shipExplImg: shipExplImg,
 };
 
 export default assets;
