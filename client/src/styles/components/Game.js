@@ -1,5 +1,5 @@
-export default theme => ({
-    root: {
-        height: '100vh',
-    },
-})
+export default (theme) => ({
+  root: {
+    height: '100vh',
+  },
+});

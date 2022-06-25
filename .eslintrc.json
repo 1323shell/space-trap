@@ -1,0 +1,22 @@
+{
+    "env": {
+        "node": true,
+        "es2021": true
+    },
+    "globals": {
+        "Core": true
+    },
+    "parser": "@babel/eslint-parser",
+    "extends": [
+        "airbnb-base",
+        // "eslint:recommended",
+        "plugin:mocha/recommended",
+        "plugin:prettier/recommended"
+      ],
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "requireConfigFile": false
+    },
+    "rules": {
+    }
+}
